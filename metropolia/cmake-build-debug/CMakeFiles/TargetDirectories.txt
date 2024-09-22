@@ -1,0 +1,3 @@
+/Users/ari/Desktop/cplusplus/metropolia/cmake-build-debug/CMakeFiles/metropolia.dir
+/Users/ari/Desktop/cplusplus/metropolia/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ari/Desktop/cplusplus/metropolia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
