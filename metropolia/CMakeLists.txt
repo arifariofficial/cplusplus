@@ -3,4 +3,5 @@ project(metropolia)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(metropolia main.cpp)
+add_executable(metropolia
+        lab-01.cpp)
