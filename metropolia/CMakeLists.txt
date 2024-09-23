@@ -7,4 +7,5 @@ add_executable(metropolia
 #        lab-01.cpp
 #        lab-02a.cpp
 #        lab-02b.cpp
-        lab-03a.cpp)
+#        lab-03a.cpp
+        lab-03b.cpp)
