@@ -69,13 +69,12 @@ string find_field(const string &xml, const string &tag_name) {
     const string start_tag = "<" + tag_name + ">";
     const string end_tag = "</" + tag_name + ">";
 
-    size_t pos1 = xml.find(start_tag);
-    size_t pos2 = xml.find(end_tag);
-    if (pos1 != string::npos && pos2 != string::npos) { // string::npos is returned if tag is not found
+    size_t pos1 = xml.find(start_tag); // looks for start_tag if not found returns string::npos
+    if (size_t pos2 = xml.find(end_tag); pos1 != string::npos && pos2 != string::npos) {
         string inner;
         pos1 += start_tag.size(); // position after start_tag
         pos2 -= pos1; // length of the string between tags
-        return inner = xml.substr(pos1, pos2); // string between tags
+        return inner = xml.substr(pos1, pos2); // string between tags, substr(start, length)
     }
 
     return "not found"; // return this if tag is not found

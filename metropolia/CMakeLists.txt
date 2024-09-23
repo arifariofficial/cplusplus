@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(metropolia
 #        lab-01.cpp
-        lab-02a.cpp)
+#        lab-02a.cpp
+        lab-02b.cpp)
