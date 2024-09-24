@@ -10,4 +10,7 @@ add_executable(metropolia
 #        lab-03a.cpp
 #        lab-03b.cpp
 #        lab-04a.cpp
-        lab-05a.cpp)
+#        lab-05a.cpp
+        lab-06a.cpp
+        Time.h
+        Time.cpp)
