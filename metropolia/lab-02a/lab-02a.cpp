@@ -29,7 +29,7 @@ int main() {
     string page, line, location, temperature;
 
     // Open xml file and read its contents into a string
-    ifstream inputFile("/Users/ari/Desktop/cplusplus/metropolia/weather.xml");
+    ifstream inputFile("/Users/ari/Desktop/cplusplus/metropolia/lab-02a/weather.xml");
 
     // Check if the file is successfully opened
     if (!inputFile.is_open()) {

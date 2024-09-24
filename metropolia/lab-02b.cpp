@@ -6,7 +6,7 @@ When all strings have been entered the program displays all strings from the vec
 entered. Then the program finds out the longest string from the array and prints the longest string and its length.
 The last thing the program does is that it displays the values returned by the member functions size and capacity
 of the vector.
- */
+*/
 
 #include <iostream>
 #include <vector>
