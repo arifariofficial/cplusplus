@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/ari/Desktop/cplusplus/metropolia/cmake-build-debug/
 
 build cmake_object_order_depends_target_metropolia: phony || .
 
-build CMakeFiles/metropolia.dir/main.cpp.o: CXX_COMPILER__metropolia_unscanned_Debug /Users/ari/Desktop/cplusplus/metropolia/main.cpp || cmake_object_order_depends_target_metropolia
-  DEP_FILE = CMakeFiles/metropolia.dir/main.cpp.o.d
+build CMakeFiles/metropolia.dir/lab-07a.cpp.o: CXX_COMPILER__metropolia_unscanned_Debug /Users/ari/Desktop/cplusplus/metropolia/lab-07a.cpp || cmake_object_order_depends_target_metropolia
+  DEP_FILE = CMakeFiles/metropolia.dir/lab-07a.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/metropolia.dir
   OBJECT_FILE_DIR = CMakeFiles/metropolia.dir
@@ -63,7 +63,7 @@ build CMakeFiles/metropolia.dir/main.cpp.o: CXX_COMPILER__metropolia_unscanned_D
 #############################################
 # Link the executable metropolia
 
-build metropolia: CXX_EXECUTABLE_LINKER__metropolia_Debug CMakeFiles/metropolia.dir/main.cpp.o
+build metropolia: CXX_EXECUTABLE_LINKER__metropolia_Debug CMakeFiles/metropolia.dir/lab-07a.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/metropolia.dir
   POST_BUILD = :

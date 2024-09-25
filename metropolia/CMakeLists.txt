@@ -4,7 +4,9 @@ project(metropolia)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(metropolia
-                main.cpp
+        #        test/main.cpp
+        #        test/Time.h
+        #        test/Time.cpp
         #        lab-01.cpp
         #        lab-02a.cpp
         #        lab-02b.cpp
@@ -15,7 +17,7 @@ add_executable(metropolia
         #        lab-06a/lab-06a.cpp
         #        lab-06a/Time.h
         #        lab-06a/Time.cpp
-#        lab-06b/lab-06b.cpp
-#        lab-06b/Time.cpp
-#        lab-06b/Time.cpp
-)
+        #        lab-06b/lab-06b.cpp
+        #        lab-06b/Time.cpp
+        #        lab-06b/Time.cpp
+        lab-07a.cpp)
