@@ -20,4 +20,5 @@ add_executable(metropolia
         #        lab-06b/lab-06b.cpp
         #        lab-06b/Time.cpp
         #        lab-06b/Time.cpp
-        lab-07a.cpp)
+        #        lab-07a.cpp
+        lab-08a.cpp)
